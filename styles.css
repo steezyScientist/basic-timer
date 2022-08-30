@@ -1,0 +1,45 @@
+* {
+    background: gray;
+}
+
+
+.global{
+    display: flex;
+  
+    align-items: flex-end;
+    border: solid black;
+}
+
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 200px;
+    border: solid black;
+   
+}
+
+#timerFace{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+}
+
+#buttonWrapper{
+    padding: 2px;
+}
+
+
+#timerStart {
+    background-color: greenyellow;
+    
+}
+
+#timerPause{
+    background-color: deepskyblue
+}
+
+#timerReset{
+    background-color: orangered;
+}
