@@ -1,45 +1,62 @@
 * {
     background: gray;
+	font-family: monospace;
+	font-weight: 900;
+	font-size: 30px;
 }
 
-
-.global{
-    display: flex;
-  
-    align-items: flex-end;
-    border: solid black;
+html, body{
+    
+	display: flex;
+    height: 100%;
+	align-items: center;
+	justify-content: center;
+	
 }
 
 .timerContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 200px;
-    border: solid black;
+	
+    background-color: #2F4F4F;
+	border: solid black;
+	border-radius: 10px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
    
 }
 
 #timerFace{
-    background-color: white;
-    width: 200px;
+    background-color: #8FBC8F;
+	color: #FFD700;
+    width: auto;
     text-align: center;
+	border: solid black;
+	border-radius: 7px;
+	
 }
 
 #buttonWrapper{
-    padding: 2px;
+	padding: 10px;
+	background-color: transparent;
 }
 
 
 #timerStart {
     background-color: greenyellow;
+	border: solid black;
+	border-radius: 7px;
     
 }
 
 #timerPause{
-    background-color: deepskyblue
+    background-color: deepskyblue;
+	border: solid black;
+	border-radius: 7px;
 }
 
 #timerReset{
     background-color: orangered;
+	border: solid black;
+	border-radius: 7px;
 }
